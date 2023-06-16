@@ -20,7 +20,7 @@ function App() {
         <div className="content flex flex-col space-y-6">
 
           <div className="description flex flex-col mb-4 text-center md:text-left">
-            <div className="free.shipping text-center bg-black text-white mx-auto px-3 py-1 rounded-3xl inline-block">
+            <div className="free.shipping text-center bg-black text-white mx-auto px-3 py-1 rounded-3xl inline-block md:text-left md:mx-0 md:mr-auto">
               Free shipping
             </div>
             <div className="description max-w-sm text-2xl font-medium">
@@ -29,9 +29,9 @@ function App() {
                 Razer Kraken Litty Edt Gaming Headset Quartz
               </h2>
 
-              <div className="flex flex-col mb-4 space-y-3 text-center">
+              <div className="flex flex-col mb-4 space-y-3 text-center md:text-left">
                 <p className="line-through">799</p>
-                <p className="text-5xl font-bold">599</p>
+                <p className="text-5xl font-bold">$599</p>
                 <p className="text-sm font-light text-gray-400">
                   offfer is valid until April3 or as long as stock last
                 </p>
@@ -45,7 +45,7 @@ function App() {
                 </button>
               </div>
 
-              <div className="stock flex items-center space-x-3 group mb-3 mt-3">
+              <div className="stock flex items-center justify-center space-x-3 group mb-3 mt-3 md:justify-normal">
                 <div className="w-3 h-3 bg-green-400 rounded-full group-hover:animate-ping"></div>
                 <div className="text-sm">50+ pcs. in stock.</div>
               </div>
